@@ -26,4 +26,4 @@ cout << result;
 //result为识别结果
 ```
 
-
+插播广告：数学机考练习欢迎到 http://www.neumathe.cn/
