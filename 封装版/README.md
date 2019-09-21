@@ -26,6 +26,15 @@ cout << result;
 //result为识别结果
 ```
 
+使用qt的需要注意进行编码转换，在上面的代码后面加：
+
+'''cpp
+QString res=QString::fromLocal8Bit(result);
+'''
+
+然后使用res作为返回结果使用
+
+
 插播广告：数学机考练习欢迎到 http://www.neumathe.cn/
 
 
