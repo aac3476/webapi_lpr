@@ -28,9 +28,10 @@ cout << result;
 
 使用qt的需要注意进行编码转换，在上面的代码后面加：
 
-'''cpp
+
+```cpp
 QString res=QString::fromLocal8Bit(result);
-'''
+```
 
 然后使用res作为返回结果使用
 
